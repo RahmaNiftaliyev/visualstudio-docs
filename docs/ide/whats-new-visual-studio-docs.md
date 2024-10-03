@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: Discover recent changes in the Visual Studio documentation, including updated articles about getting started, the IDE, and deployment.
-ms.date: 09/04/2024
+ms.date: 10/01/2024
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -14,6 +14,9 @@ ms.topic: conceptual
 # What's new in Visual Studio docs
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## September 2024
+
 
 ## August 2024
 
@@ -227,82 +230,3 @@ The following people contributed to the Visual Studio docs during this period. T
 
 - [ErikEJ](https://github.com/ErikEJ) - Erik Ejlskov Jensen ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
-## June 2024
-
-### Azure
-
-**Updated articles**
-
-- [Publish a Cloud Services (classic) project to Cloud Services (extended support) by using Visual Studio](../azure/cloud-services-extended-support.md) - Review and update
-
-### Deployment
-
-**Updated articles**
-
-- [Specify ClickOnce Publish properties](../deployment/how-to-specify-where-visual-studio-copies-the-files.md) - Update and refactor articles on ClickOnce deployment settings
-- [Server and client configuration issues in ClickOnce deployments](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md) - Remove Internet Explorer references from ClickOnce
-- [Overview of Publish](../deployment/publish-overview.md) - Review and update, add more about basic Publish operations
-- [Get publish settings from Azure and import into Visual Studio](../deployment/tutorial-import-publish-settings-azure.md) - Review and update credentials information for Azure App Service publish
-
-### Get started
-
-**Updated articles**
-
-- [Tutorial: Create your first Universal Windows Platform application in Visual Studio with XAML and C&#35;](../get-started/csharp/tutorial-uwp.md) - Review and update
-- [Tutorial: Create a math quiz WinForms app](../get-started/csharp/tutorial-windows-forms-math-quiz-create-project-add-controls.md) - Review and update
-- [What is Visual Studio?](../get-started/visual-studio-ide.md) - Review and update
-
-### IDE
-
-**Updated articles**
-
-- [Sign in or switch Visual Studio user accounts](../ide/signing-in-to-visual-studio.md) - Add steps to sign in from the IDE
-- [Install GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-install-and-states.md) - Add instructions on how to hide/remove GitHub Copilot
-- [Manage application settings (.NET)](../ide/managing-application-settings-dotnet.md) - Review and update
-- [Manage project and solution properties](../ide/managing-project-and-solution-properties.md) - Review and update
-- [Outlining](../ide/outlining.md) - Review and update
-- [Manage word wrap in the editor](../ide/reference/how-to-manage-word-wrap-in-the-editor.md) - Review and update
-- [What is Sticky Scroll for Visual Studio?](../ide/editor-sticky-scroll.md) - Review and update
-
-### Install
-
-**Updated articles**
-
-- [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md) - Workload updates for Arm64 in latest Visual Studio releases
-- [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md) - Review and update
-- [Repair Visual Studio](../install/repair-visual-studio.md) - Review and update
-- [Uninstall or remove Visual Studio](../install/uninstall-visual-studio.md) - Review and update
-- [Install Visual Studio](../install/install-visual-studio.md) - Review and update
-
-### MSBuild
-
-**Updated articles**
-
-- [Select the files to build](../msbuild/how-to-select-the-files-to-build.md) - Updates to apply to SDK builds
-- [MSBuild command-line reference](../msbuild/msbuild-command-line-reference.md) - Improve readability of MSBuild tables
-
-### Profiling
-
-**New articles**
-
-- [Isolate a performance issue (C#, Visual Basic, F#)](../profiling/isolate-performance-issue.md)
-
-**Updated articles**
-
-- [Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)](../profiling/optimize-code-using-profiling-tools.md) - Add tutorial for starting a performance investigation using .NET Counters and Instrumentation
-- [Instrument a native stand-alone component and collect timing data with the profiler from the command line](../profiling/instrument-native-component-and-collect-timing-data.md) - Update command-line instrumentation articles for VSIntsr usage
-
-### Test
-
-**Updated articles**
-
-- [Unit test basics](../test/unit-test-basics.md) - Add Copilot info and links related to generating unit tests
-
-### Community contributors
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [PhilKang0704](https://github.com/PhilKang0704) - Phil ![3 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-3-green)
-- [Guiorgy](https://github.com/Guiorgy) - Guiorgy ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [hickford](https://github.com/hickford) - M Hickford ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [trivalik](https://github.com/trivalik) - Trivalik ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
