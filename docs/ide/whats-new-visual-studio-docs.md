@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: Discover recent changes in the Visual Studio documentation, including updated articles about getting started, the IDE, and deployment.
-ms.date: 04/01/2026
+ms.date: 05/01/2026
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -14,6 +14,176 @@ ms.topic: whats-new
 # What's new in Visual Studio docs
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## April 2026
+
+### Code quality
+
+**Updated articles**
+
+- [Customize Roslyn analyzer rules](../code-quality/use-roslyn-analyzers.md) - Update bug submission link for code analyzers
+- Review and update screenshots
+  - [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md)
+
+### Containers
+
+**Updated articles**
+
+- Podman Compose support
+  - [Visual Studio Container Tools on Windows](../containers/overview.md)
+  - [Work with multiple containers using Docker Compose](../containers/tutorial-multicontainer.md)
+  - [Build a containerized Visual Studio project from the command line](../containers/container-build-from-command-line.md)
+  - [Configure Container Tools](../containers/container-tools-configure.md)
+  - [Docker Compose build settings](../containers/docker-compose-properties.md)
+  - [Launch a subset of Docker Compose services](../containers/launch-profiles.md)
+  - [Use the Containers window](../containers/view-and-diagnose-containers.md)
+
+### Data tools
+
+**Updated articles**
+
+- [Connect to Access database in .NET Framework apps](../data-tools/connect-to-data-in-an-access-database-windows-forms.md) - Review and update screenshots
+
+### Debugger
+
+**Updated articles**
+
+- Add content for debugger agent workflow
+  - [Debug with GitHub Copilot](../debugger/debug-with-copilot.md)
+  - [Overview of the debugger](../debugger/debugger-feature-tour.md)
+  - [Inspect and break exceptions when debugging](../debugger/exception-helper.md)
+- [View strings in a string visualizer](../debugger/view-strings-visualizer.md) - Add information for auto-detection of string encoding with Copilot
+- Clarify troubleshooting for Hot Reload
+  - [Write and debug code by using Hot Reload](../debugger/hot-reload.md)
+  - [Configure Hot Reload](../debugger/how-to-enable-and-disable-edit-and-continue.md)
+- [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md) - Update Hot Reload articles
+- [Remote debugging](../debugger/remote-debugging.md) - Update remote debugger requirements
+- Review and update screenshots
+  - [Get started with breakpoints](../debugger/get-started-with-breakpoints.md)
+  - [Enable debugging for ASP.NET apps](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
+- Text quality fixes
+  - [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
+  - [Debugging code for absolute beginners](../debugger/debugging-absolute-beginners.md)
+  - [What is debugging and a debugger?](../debugger/what-is-debugging.md)
+
+### Extensibility
+
+**Updated articles**
+
+- [Components of a VisualStudio.Extensibility extension](../extensibility/visualstudio.extensibility/inside-the-sdk/extension-anatomy.md) - Refine explanation of extension component contributions
+- Review and update screenshots
+  - [Installing the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md)
+  - [Walkthrough: Publish a Visual Studio extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md)
+
+### IDE
+
+**New articles**
+
+- [Use Agent Skills with GitHub Copilot](../ide/copilot-agent-skills.md)
+- New Quick Actions reference articles organized by category
+  - [Class and member refactorings](../ide/reference/refactoring-class-member.md)
+  - [Code cleanup refactorings](../ide/reference/refactoring-code-cleanup.md)
+  - [Conditional and logic refactorings](../ide/reference/refactoring-conditional-logic.md)
+  - [Expression and pattern refactorings](../ide/reference/refactoring-expression-pattern.md)
+  - [Extract and inline refactorings](../ide/reference/refactoring-extract-inline.md)
+  - [IntelliSense and formatting refactorings](../ide/reference/refactoring-intellisense-formatting.md)
+  - [Loop and LINQ refactorings](../ide/reference/refactoring-loop-linq.md)
+  - [Property and field refactorings](../ide/reference/refactoring-property-field.md)
+  - [Rename and move refactorings](../ide/reference/refactoring-rename-move.md)
+  - [Type, string, and syntax conversion refactorings](../ide/reference/refactoring-type-string-syntax.md)
+
+**Updated articles**
+
+- [Use Agent Mode](../ide/copilot-agent-mode.md) - Add `find_symbol` tool and agent skills support
+- [Use custom agents in GitHub Copilot](../ide/copilot-specialized-agents.md) - Add content for debugger agent workflow and custom agent updates
+- [Use MCP Servers](../ide/mcp-servers.md) - Major restructure and content review
+- [Refactoring for different programming languages](../ide/refactoring-in-visual-studio.md) - Refactor and curate Quick Actions reference
+- [Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) - Update for Visual Studio 2026
+- [Report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md) - Add DevCom sign-in pop-up details
+- [Copilot Completions](../ide/visual-studio-github-copilot-extension.md) - Add keyboard shortcuts for GitHub Copilot; add disclaimer for paid plan and free trials
+- Add disclaimer for paid plan and free trials
+  - [AI-assistance for developers in Visual Studio](../ide/ai-assisted-development-visual-studio.md)
+  - [Customize chat responses](../ide/copilot-chat-context.md)
+  - [GitHub Copilot Free in Visual Studio](../ide/copilot-free-plan.md)
+  - [About GitHub Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md)
+  - [Manage GitHub Copilot installation and state](../ide/visual-studio-github-copilot-install-and-states.md)
+- [GitHub Copilot usage and models](../ide/copilot-usage-and-models.md) - Add information about rate limits
+- Consolidate Project Designer documentation
+  - [Manage application settings (.NET)](../ide/managing-application-settings-dotnet.md)
+  - [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
+  - [Project Designer for .NET project properties](../ide/project-designer-dotnet-csharp.md)
+  - [Settings Page, Project Designer](../ide/settings-page-project-designer.md)
+  - [Properties Window](../ide/properties-window.md)
+  - [Learn about Solution Explorer](../ide/use-solution-explorer.md)
+- Review and update screenshots
+  - [Get faster load & run times with solution filters](../ide/filtered-solutions.md)
+  - [Create and remove project dependencies](../ide/how-to-create-and-remove-project-dependencies.md)
+  - [Navigate Code in the Editor](../ide/navigating-code.md)
+  - [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md)
+  - [Create a Python Web App with Visual Studio](../ide/quickstart-python.md)
+  - [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md)
+  - [Set bookmarks in Visual Studio](../ide/setting-bookmarks-in-code.md)
+  - [Learn about the Spell Checker](../ide/text-spell-checker.md)
+  - [Create a Code Snippet in Visual Studio](../ide/walkthrough-creating-a-code-snippet.md)
+
+### Install
+
+**Updated articles**
+
+- [Install Visual Studio Versions Side-by-Side](../install/install-visual-studio-versions-side-by-side.md) - Add instructions for changing the default Visual Studio version; clarify registry settings scope
+
+### JavaScript
+
+**Updated articles**
+
+- Update tsconfig documentation
+  - [Compile and build TypeScript code using NuGet](../javascript/compile-typescript-code-nuget.md)
+  - [Add TypeScript to an ASP.NET Core app](../javascript/tutorial-aspnet-with-typescript.md)
+
+### Modeling
+
+**Updated articles**
+
+- Review and update screenshots
+  - [Create dependency diagrams from your code](../modeling/create-layer-diagrams-from-your-code.md)
+  - [Visualize dependencies with code maps](../modeling/map-dependencies-across-your-solutions.md)
+
+### MSBuild
+
+**Updated articles**
+
+- [Common MSBuild Project Properties](../msbuild/common-msbuild-project-properties.md) - Restore `MSBuildTreatWarningsAsErrors` property
+- [Find MSBuild and use its API](../msbuild/find-and-use-msbuild-versions.md) - Update version information and binding redirect note
+- Review and update
+  - [Build multiple projects in parallel with MSBuild](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)
+  - [Incremental builds in MSBuild](../msbuild/incremental-builds.md)
+
+### Profiling
+
+**Updated articles**
+
+- Review and update screenshots
+  - [Measure CPU utilization in your apps](../profiling/beginners-guide-to-performance-profiling.md)
+  - [Analyze memory usage for .NET objects](../profiling/dotnet-alloc-tool.md)
+
+### Test
+
+**Updated articles**
+
+- [Test-driven development](../test/quick-start-test-driven-development-with-test-explorer.md) - Review and update screenshots
+
+### XAML tools
+
+**Updated articles**
+
+- [Capture & edit desktop app UI with XAML Live Preview](../xaml-tools/xaml-live-preview.md) - Review and update screenshots
+
+### Community contributors
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [ihor-kitsa](https://github.com/ihor-kitsa) - ihor-kitsa ![3 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-3-green)
+- [Chukslord1](https://github.com/Chukslord1) - Ochuko Onojakpor ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
 ## March 2026
 
@@ -360,172 +530,4 @@ The following people contributed to the Visual Studio docs during this period. T
 - [Use git fetch, pull, push and sync for version control in Visual Studio](../version-control/git-fetch-pull-sync.md) - Review and update screenshots
 - [Manage Git repositories in Visual Studio](../version-control/git-manage-repository.md) - Review and update screenshots
 - [Make a Git commit in Visual Studio](../version-control/git-make-commit.md) - Review and update screenshots
-
-## January 2026
-
-### Azure
-
-**Updated articles**
-
-- [Adding Azure Storage by using Visual Studio Connected Services](../azure/vs-azure-tools-connected-services-storage.md) - Fix link formatting in Azure Storage documentation
-- [Azure development with Visual Studio](../azure/index.yml) - Review and update
-- [Connect to Azure services, gRPC, OpenAPI, and more](../azure/overview-connected-services.md) - Update MongoDB container links
-
-### Code quality
-
-**Updated articles**
-
-- [Generate code metrics data](../code-quality/how-to-generate-code-metrics-data.md)
-  - Update articles on calculating code metrics
-  - Updated instructions for using Metrics.exe
-- [Use the Code Metrics window](../code-quality/working-with-code-metrics-data.md) - Update articles on calculating code metrics
-- [Code analysis using .NET compiler platform (Roslyn) analyzers](../code-quality/roslyn-analyzers-overview.md) - Update screenshots
-
-### Containers
-
-**Updated articles**
-
-- [Customize container volume mapping](../containers/container-volume-mapping.md) - Updates .NET 8 to .NET 10
-
-### Debugger
-
-**Updated articles**
-
-- [Set debug and release configurations in Visual Studio](../debugger/how-to-set-debug-and-release-configurations.md) - Update article on setting debug and release configurations
-- [C/C++ Assertions](../debugger/c-cpp-assertions.md) - Fix code in article on navigating code in the debugger
-- Refactor debugger UI reference articles
-  - [Debug using the Just-In-Time Debugger in Visual Studio](../debugger/debug-using-the-just-in-time-debugger.md)
-  - [Specify debugger options](../debugger/how-to-specify-debugger-settings.md)
-  - [Specify debug source files](../debugger/debug-source-files-common-properties-solution-property-pages-dialog-box.md)
-  - [Stop debugging in progress](../debugger/stop-debugging-in-progress-dialog-box.md)
-  - [View strings in a string visualizer in Visual Studio](../debugger/view-strings-visualizer.md)
-  - [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
-  - [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
-  - [FAQ - Debugger feature finder](../debugger/find-your-debugging-task.yml)
-  - [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md)
-- [IDiaSymbol12::get_atomicType](../debugger/debug-interface-access/idiasymbol12-get-atomictype.md) - Add Copilot profiling info for .NET Counters
-- [Inspect an exception using the Exception Helper](../debugger/exception-helper.md) - Update Exception Helper article for Copilot
-- [Debugging techniques and tools to help you write better code](../debugger/write-better-code-with-visual-studio.md) - Update debugging techniques and tools
-
-### Designers
-
-**Updated articles**
-
-- [Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Clarify that ForceDesignerDpiUnaware is supported only in .NET 6+ Windows Forms projects
-
-### Extensibility
-
-**New articles**
-
-- [Extension compatibility model for Visual Studio](../extensibility/migration/extension-compatibility.md)
-
-### IDE
-
-**New articles**
-
-- [Configure C/C++ code analysis and error list options](../ide/configure-c-cpp-advanced-options.md)
-- [Configure Languages > C/C++ > IntelliSense options](../ide/configure-languages-c-cpp-intellisense.md)
-- [Configure Languages > C/C++ > Text editor options](../ide/configure-languages-c-cpp-text-editor.md)
-
-**Updated articles**
-
-- Refactor UI reference for text editor
-  - [Configure Visual Basic text editor options](../ide/options-text-editor-basic-visual-basic.md)
-  - [Configure C# text editor advanced options](../ide/options-text-editor-csharp-advanced.md)
-- [Configure C/C++ code analysis and error list options](../ide/configure-c-cpp-advanced-options.md)
-  - TOC updates for text editor options
-  - Review and update
-- Refactor IDE UI reference articles
-  - [Customize environment options for fonts and colors](../ide/fonts-and-colors-environment-options-dialog-box.md)
-  - [Customize general environment options](../ide/general-environment-options-dialog-box.md)
-  - [Configure environment options for an account](../ide/accounts-environment-options-dialog-box.md)
-  - [Find and replace text in Visual Studio](../ide/finding-and-replacing-text.md)
-  - [Customize general text editor options](../ide/options-text-editor-general.md)
-  - [Options dialog box: Environment \> Extensions](../ide/reference/extensions-and-updates-environment-options-dialog-box.md)
-- [View problem details for C/C++](../ide/reference/problem-details-window.md) - Refactor debugger UI ref articles
-- [Visual C++ IntelliSense features](../ide/visual-cpp-intellisense.md) - Review and update
-- [Code style preferences and code cleanup](../ide/code-styles-and-code-cleanup.md) - Review and update
-- [Make code work in Visual Studio](../ide/find-and-fix-code-errors.md) - Review and update
-- [Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) - Review and update
-- [Define consistent coding styles with EditorConfig](../ide/create-portable-custom-editor-options.md) - Review and update
-- [View type and member definitions](../ide/go-to-and-peek-definition.md) - Review and update
-- [What is Sticky Scroll for Visual Studio?](../ide/editor-sticky-scroll.md) - Review and update
-- [Options, Text Editor, C/C++, Advanced](../ide/reference/options-text-editor-c-cpp-advanced.md) - Review and update
-- [Options, Text Editor, C/C++, View](../ide/reference/options-text-editor-c-cpp-view.md) - Review and update
-- [What is the GitHub Copilot Chat experience for Visual Studio?](../ide/visual-studio-github-copilot-chat.md) - Update screenshots
-- [Get started with GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md) - Update screenshots
-- [Customize chat responses and set context](../ide/copilot-chat-context.md) - Update screenshots
-- [Get started with GitHub Copilot agent mode](../ide/copilot-agent-mode.md) - Update screenshots
-- [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md) - Update screenshots
-- [Use MCP servers](../ide/mcp-servers.md) - Update screenshots
-- [Manage GitHub Copilot installation and state](../ide/visual-studio-github-copilot-install-and-states.md) - Update screenshots
-- [Troubleshoot GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-troubleshoot.md) - Update screenshots
-- [Find, install, and manage extensions for Visual Studio](../ide/finding-and-using-visual-studio-extensions.md) - Update screenshots
-- [Intellicode whole-line autocompletions](../ide/visual-studio-whole-line-completions.md) - Add link to GitHub Copilot completions
-
-### JavaScript
-
-**Updated articles**
-
-- [Tutorial: Add TypeScript to an existing ASP.NET Core app in Visual Studio](../javascript/tutorial-aspnet-with-typescript.md) - Update screenshots
-
-### Modeling
-
-**Updated articles**
-
-VM SDK doc and labs updated to Visual Studio 2022
-- [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md)
-- [Get Started with Domain-Specific Languages](../modeling/getting-started-with-domain-specific-languages.md)
-- [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
-
-### MSBuild
-
-**Updated articles**
-
-- [Common MSBuild project items](../msbuild/common-msbuild-project-items.md) - Enhance Aliases description for Reference and ProjectReference
-- [Build specific targets in solutions by using MSBuild.exe](../msbuild/how-to-build-specific-targets-in-solutions-by-using-msbuild-exe.md) - Review and update
-- [Configure targets and tasks](../msbuild/how-to-configure-targets-and-tasks.md) - Clarify UsingTask Runtime=NET support
-- [Troubleshoot assembly references](../msbuild/troubleshoot-assembly-references.md) - Clarify AssemblySearchPaths defaults for SDK-style projects
-
-### Profiling
-
-**Updated articles**
-
-- [Profile your app with GitHub Copilot Profiler Agent](../profiling/profile-with-copilot-agent.md) - Add Copilot profiling info for .NET Counters
-- [Overview of the profiling tools (C#, Visual Basic, C++, F#)](../profiling/profiling-feature-tour.md) - Update screenshots
-
-### Python
-
-**Updated articles**
-
-- [Automatically reformat Python code in Visual Studio](../python/formatting-python-code.md) - Review and update
-- [Options for Python in Visual Studio](../python/python-support-options-and-settings-in-visual-studio.md) - Review and update
-
-### Test
-
-**Updated articles**
-
-- [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md) - Clarify target framework requirement in documentation
-- [Get started with unit testing](../test/getting-started-with-unit-testing.md) - Update Copilot info in get started with unit testing
-- [Test Execution with Hot Reload](../test/test-execution-with-hot-reload.md) - Review and update
-- [Create and run unit tests for .NET](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md) - Updates .NET 8 to .NET 10
-
-### Version control
-
-**Updated articles**
-
-- [Git settings and preferences in Visual Studio](../version-control/git-settings.md) - Review and update
-- [Push from Visual Studio to a remote branch](../version-control/git-push-remote.md) - Explain options for push to remote
-- [Work with multiple repos](../version-control/git-multi-repository-support.md) - Review and update
-- [Stage lines of code in Visual Studio](../version-control/git-line-staging.md) - Review and update
-
-### Community contributors
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [fuguiKz](https://github.com/fuguiKz) - kz ![2 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-2-green)
-- [marxlumon](https://github.com/marxlumon) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [MFredX](https://github.com/MFredX) - Sachin Fernando ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [PhilKang0704](https://github.com/PhilKang0704) - Phil ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [ran-huang](https://github.com/ran-huang) - Ran ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
