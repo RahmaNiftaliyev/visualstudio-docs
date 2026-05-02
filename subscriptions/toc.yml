@@ -86,7 +86,7 @@
       href: vs-pbi.md
     - name: Syncfusion
       href: syncfusion.md 
-    - name: Windows Virtual Desktop
+    - name: Azure Virtual Desktop
       href: vs-windows-virtual-desktop.md  
   - name: Professional development
     items:
