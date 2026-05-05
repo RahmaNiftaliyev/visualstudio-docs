@@ -39,7 +39,6 @@ Copilot Chat provides AI assistance to help you make informed decisions and writ
 
 - [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot). You can use [GitHub Copilot for free](copilot-free-plan.md).
 
-[!INCLUDE [copilot-billing-notice](../includes/copilot-billing-notice.md)]
 
 [!INCLUDE [copilot-trials-paused-notice](../includes/copilot-trials-paused-notice.md)]
 

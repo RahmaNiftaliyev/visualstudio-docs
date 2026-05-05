@@ -35,7 +35,6 @@ You can also use GitHub Copilot to convert comments to code, create unit tests, 
 - [Visual Studio 2026](/visualstudio/releases/2026/release-notes) or [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) (with the latest servicing release recommended for the most up-to-date features)
 - [Sign in to Visual Studio by using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot).
 
-[!INCLUDE [copilot-billing-notice](../includes/copilot-billing-notice.md)]
 
 [!INCLUDE [copilot-trials-paused-notice](../includes/copilot-trials-paused-notice.md)]
 

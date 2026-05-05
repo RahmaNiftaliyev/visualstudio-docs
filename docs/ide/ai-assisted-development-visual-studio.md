@@ -113,7 +113,6 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 | API usage examples | No | **Yes** <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/intellicode-api-usage-examples/)|
 | Languages supported | Supports several programming languages and frameworks, including but not limited to: C#, C++, Python, JavaScript, and TypeScript| C#, XAML, C++, JavaScript, TypeScript, Visual Basic |
 
-[!INCLUDE [copilot-billing-notice](../includes/copilot-billing-notice.md)]
 
 [!INCLUDE [copilot-trials-paused-notice](../includes/copilot-trials-paused-notice.md)]
 
