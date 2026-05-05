@@ -9,6 +9,7 @@ ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
+ms.custom: awp-ai
 monikerRange: '>= vs-2022'
 
 ---

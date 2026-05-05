@@ -9,7 +9,7 @@ ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
-ms.custom: copilot-learning-hub
+ms.custom: copilot-learning-hub, awp-ai
 ---
 # Manage GitHub Copilot installation and state
 
