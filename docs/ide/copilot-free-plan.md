@@ -105,10 +105,6 @@ When you reach usage limits for Copilot Free, wait for the limits to reset at th
 
 #### Who can access Copilot Free?
 
-[!INCLUDE [copilot-billing-notice](../includes/copilot-billing-notice.md)]
-
-[!INCLUDE [copilot-trials-paused-notice](../includes/copilot-trials-paused-notice.md)]
-
 Copilot Free isn't available if you have an EMU account, access to a Copilot license through an organization, an existing Copilot Pro subscription, or free access to Copilot Pro as a student, teacher, or open-source maintainer.
 For the latest information, see [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
 
@@ -129,6 +125,8 @@ Learn more at [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
 #### What are the Copilot Free limits for Completions and Chat?
 
 See [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage) for information.
+
+[!INCLUDE [copilot-billing-notice](../includes/copilot-billing-notice.md)]
 
 ## Related content
 
