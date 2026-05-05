@@ -46,8 +46,9 @@ To get started using GitHub Copilot Chat in Visual Studio, you need:
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
   <sup>**</sup> You can sign up for [GitHub Copilot for Free](copilot-free-plan.md).
 
-> [!NOTE]
-> As of April 20, 2026, all GitHub Copilot Pro trials, including existing trials, have been paused. New signups and enrollments for paid individual tiers — including Student, Pro, and Pro+ — are temporarily closed. If you were already on a Copilot trial, you can switch to [Copilot Free](copilot-free-plan.md) or upgrade to a Copilot Pro or Pro+ subscription. For the latest information and support, see https://docs.github.com/en/copilot/get-started/plans.
+[!INCLUDE [copilot-billing-notice](../includes/copilot-billing-notice.md)]
+
+[!INCLUDE [copilot-trials-paused-notice](../includes/copilot-trials-paused-notice.md)]
 
 
 Support for GitHub Copilot Chat is provided by GitHub and can be reached at https://support.github.com.
