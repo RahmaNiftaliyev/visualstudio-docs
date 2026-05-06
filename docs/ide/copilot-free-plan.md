@@ -9,6 +9,7 @@ ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
+ms.custom: awp-ai
 monikerRange: '>= vs-2022'
 
 ---
@@ -103,8 +104,6 @@ When you reach usage limits for Copilot Free, wait for the limits to reset at th
 ## Frequently asked questions
 
 #### Who can access Copilot Free?
-> [!NOTE]
-> As of April 20, 2026, all GitHub Copilot Pro trials, including existing trials, have been paused. New signups and enrollments for paid individual tiers — including Student, Pro, and Pro+ — are temporarily closed. If you were already on a Copilot trial, you can switch to [Copilot Free](copilot-free-plan.md) or upgrade to a Copilot Pro or Pro+ subscription. For the latest information and support, see https://docs.github.com/en/copilot/get-started/plans.
 
 Copilot Free isn't available if you have an EMU account, access to a Copilot license through an organization, an existing Copilot Pro subscription, or free access to Copilot Pro as a student, teacher, or open-source maintainer.
 For the latest information, see [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
@@ -126,6 +125,8 @@ Learn more at [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
 #### What are the Copilot Free limits for Completions and Chat?
 
 See [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage) for information.
+
+[!INCLUDE [copilot-billing-notice](../includes/copilot-billing-notice.md)]
 
 ## Related content
 
